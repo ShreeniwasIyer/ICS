@@ -8,7 +8,7 @@ docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp openjdk /bin/bash
 javac Strings.java
 ```
 
-### Correct the
+### Correct the error
 You will perhaps see the following error.
 ```
 Strings.java:28: error: variable allGreetings is already defined in method main(String[])

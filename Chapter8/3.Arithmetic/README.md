@@ -12,18 +12,3 @@ javac Arithmetic.java
 ```
 java Arithmetic
 ```
-
-### Output
-```
-root@14fadba84883:/usr/src/myapp# java Strings
-
-
-
-Hello World!
-Hola Amigos!
-Salamat Datang!
-
-
-
-Hello World!Hola Amigos!Salamat Datang!
-```
