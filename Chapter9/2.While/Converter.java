@@ -15,10 +15,10 @@ public class Converter {
      Scanner reader = new Scanner(System.in);
      int decimal;
 
-     System.out.print("Enter temperature in fahrenheit: ");
+     System.out.print("Enter input in Decimal form: ");
      decimal = reader.nextInt();
 
-     System.out.print("The number in binary form is " + Converter.decimal_to_binary(decimal));
+     System.out.println("The number in binary form is " + Converter.decimal_to_binary(decimal));
    }
 
 }
