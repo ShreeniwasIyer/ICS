@@ -20,7 +20,7 @@ public class Conditions {
   /**
   Function
   */
-  public String type_of_number_tertiary(int integer) {
+  public String type_of_number(int integer) {
     if(integer > 0) {
       return "Positive";
     } else if (integer == 0) {

@@ -16,13 +16,13 @@ public class Conditions_T {
     }
 
     @Test
-    public void type_of_number_tertiary_test() {
+    public void type_of_number_test() {
         // Construct a new object of class Conditions before you test it
         Conditions c = new Conditions();
         // Assert all possible cases - cases that go into the if as well as outside
-        assertEquals("Positive", c.type_of_number_tertiary(78));
-        assertEquals("Zero", c.type_of_number_tertiary(0));
-        assertEquals("Negative", c.type_of_number_tertiary(-23));
+        assertEquals("Positive", c.type_of_number(78));
+        assertEquals("Zero", c.type_of_number(0));
+        assertEquals("Negative", c.type_of_number(-23));
     }
 
     @Test
